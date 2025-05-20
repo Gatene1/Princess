@@ -15,3 +15,6 @@
 ## 5/19/2025
 - Built HTML file to draw the characters and the walls of the puzzle.
 - Incorporated JSON data for the map.
+
+## 5/20/2025
+- Drew arrow sprites.

@@ -81,7 +81,7 @@ function drawPrincess() {
 
 function drawWalls() {
     for (let wall of walls) {
-        drawSquare((wall.x * GRID_SIZE) * PIXEL_SIZE, (wall.y * GRID_SIZE) * PIXEL_SIZE,
-            (wall.w * GRID_SIZE) * PIXEL_SIZE, (wall.h * GRID_SIZE) * PIXEL_SIZE, "#000000");
+        drawSquare(wall.x * GRID_SIZE * PIXEL_SIZE, wall.y * GRID_SIZE * PIXEL_SIZE,
+            wall.w * GRID_SIZE * PIXEL_SIZE, wall.h * GRID_SIZE * PIXEL_SIZE, "#333");
     }
 }
